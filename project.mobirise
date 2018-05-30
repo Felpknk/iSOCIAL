@@ -1,0 +1,523 @@
+{
+  "settings": {
+    "name": "Site-04-28_0244",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#bebebe",
+        "#0998d6",
+        "#0a719e",
+        "#37383e"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.7.2",
+    "uniqCompNum": 42,
+    "versionPublish": "4.7.7",
+    "screenshot": "screenshot.png",
+    "siteFonts": []
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": false,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#37383e",
+            "hamburgerColor": "#bebebe"
+          },
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-info-outline btn-info\" data-app-selector=\".navbar-nav .btn\" href=\"Proposta.html#contacts3-c\">CONTATO</a></li>",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "items": " <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-1-213x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-info\" data-app-btn=\"true\" href=\"Proposta.html#contacts3-c\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Investigação Social</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-15",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#bebebe"
+            },
+            ".navbar-brand": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "30px"
+            },
+            ".nav-link": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showBullets": false,
+            "bgColor": "#bebebe",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/axvxsmg-1360x680.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Bem vindos",
+                "contentAlign": "center",
+                "text": "Somos seu mentor em investigação social.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"index.html#header2-2\" data-toolbar=\"-mbrBtnMove\">Conheça mais</a> ",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "overlayColor": "#000000"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/home-background-1-2000x875.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": false,
+                "showTitle": true,
+                "title": "<br>O que &nbsp;deseja Investigar ? :<br><br>",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"Proposta.html#contacts3-c\" data-toolbar=\"-mbrBtnMove\">WhatsAPP</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"Proposta.html#contacts3-c\" data-toolbar=\"-mbrBtnMove\">Facebook</a>    ",
+                "overlay": true,
+                "overlayOpacity": "0.3",
+                "overlayColor": "#000000"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/marketing-de-contedo-1080x675.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Missão",
+                "contentAlign": "center",
+                "text": "Planejamento<br><br>Fazemos as melhores escolhas para o seu investimento, como o detetive particular já possui uma experiencia nesse tipo de caso, a investigação pode ser concluida em cerca de 10 dias e com a obtenção de provas, o que dará mais segurança ao contrantante da investigação.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"Proposta.html#contacts3-c\" data-toolbar=\"-mbrBtnMove\">Contate-nos</a> ",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "overlayColor": "#000000"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/aqcqg2h6ygveq2t1axlg-1920x1080.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "<br>Valores",
+                "contentAlign": "center",
+                "text": "<p><i>Verdades<br>&nbsp;<span style=\"font-size: 1.25rem;\">Nesse momento de insegurança que o parceiro busca meios de vigiar o namorado(a)</span><span style=\"font-size: 1.25rem;\">e o smartphone na busca de algum indício de traição.&nbsp;</span></i></p>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Saiba mais</a> ",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "overlayColor": "#000000"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-4",
+          "_styles": {
+            "H2": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "color": "#ffffff",
+              "font-size": "46px",
+              "text-align": "center"
+            },
+            "P": {
+              "color": "#f1c050",
+              "text-align": "center",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            "I": {
+              "color": "#f1c050"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showCaption": false,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1920x500-banner-quem-somos-1920x500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0"
+          },
+          "title": "",
+          "caption": "",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-9"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/home-background-2000x875.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "WhatsApp e Facebook: descubra se está sendo traído(a) online",
+          "text": "A <i>traição online</i> preocupa cada vez mais casais devido ao aumento do uso de recursos tecnológicos, como smartphones, notebooks, tablets e seus canais, como WhatsApp, Facebook, Skype e outras <i>mídias <b>online</b></i>.\n<br>\n<br>Essa nova forma de interação tem afetado diretamente os relacionamentos, que estão cada vez mais suscetíveis à era digital. Com esse novo comportamento, todo mundo quer ser um pouco detetive.\n<br>\n<br>O uso de meios digitais para novos relacionamentos já é uma realidade, inclusive com sites de relacionamento para pessoas comprometidas e aplicativos como o Tinder.\n<br>\n<br>Assim como o tipo de traição mudou com esses novos recursos, as formas de descobrir a infidelidade também estão ao alcance das mãos em dispositivos móveis.\n<br><b>Quais os indícios de uma traição online?\n</b><br>\n<br>&nbsp;profissional com vasta <i>experiência em investigações</i> conjugais, afirma que os indícios de uma traição online não são muito diferentes daqueles comportamentos clássicos já conhecidos dos casais. Entre as características que podem levantar suspeitas estão:\n<br>\n<br>✔<i>Parceiro(a) distante e com pouco tempo para você;\n<br></i>✔<i>Mudanças bruscas de comportamento;\n<br></i>✔<i>Apego exagerado ao smartphone e muito tempo gasto em conversas online.\n</i><br>\n<br>Situações nas quais o celular toca e o parceiro fica receoso, escondendo o aparelho, podem despertar desconfiança e também demostrar que há algum segredo entre o casal. Nessa circunstância é normal que a pessoa fique desconfiada e comece a gerar desconforto e dúvidas.\n<br><b><br></b><br><b>Detetive dá dicas de como vigiar o celular do parceiro\n</b><br>\n<br>Nesse momento de insegurança que o parceiro busca meios de vigiar o namorado e o smartphone na busca de algum <b><i>indício de traição</i></b>. Existem diversos aplicativos que auxiliam neste tipo de vigilância, alguns deles são:\n<br>\n<br>    com;\n<br>    ✔LogMeIn Ignition;\n<br>    ✔Phonedeck;\n<br>    ✔GPS Tracker Pro;\n<br>    ✔Find My iPhone;\n<br>\n<br>Para saber como utilizar cada um desses aplicativos, <a href=\"https://www.tecmundo.com.br/apps/22773-10-apps-para-descobrir-se-voce-esta-sendo-traido.htm\" target=\"_blank\">acesse aqui</a>.\n<br>\n<br>Caso você opte por contratar um detetive particular para conduzir a investigação, o profissional terá outros aplicativos de espionagem que poderão ser utilizados com o objetivo de descobrir se você está sendo <i>traída online</i> e também se o seu parceiro tem tido encontros extraconjugais pessoalmente.\n<br>\n<br>Como o <i><a href=\"Proposta.html#contacts3-c\">detetive particular</a></i> já possui uma experiência nesse tipo de caso, a investigação pode ser concluída em cerca de 10 dias e com a obtenção de provas, o que dará mais segurança ao contratante da investigação.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-2",
+          "_styles": {
+            "H1": {
+              "text-align": "left",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "30px"
+            },
+            "P": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "text-align": "center"
+            },
+            "B": {
+              "font-size": "25px"
+            },
+            "I": {
+              "color": "#5bc0de"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/-background-2000x875.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info-outline btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>ENVIAR</a>",
+          "text1": "<strong>Endereço</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>Contacts</strong><br>\nEmail: support@social.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002<br><i>somos uma agência de detetives particulares que conta com uma equipe altamente qualificada e capacitada para atender os mais variados casos e investigações particulares.</i><br>",
+          "text2": "<b>Contato</b>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "truqueloke@gmail.com",
+            "alerts": {
+              "success": "Obrigado assim que possivel entraremos em contato."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Sua proposta"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Seu e-mail"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Tefone para contato"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensagem"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-a",
+          "_styles": {
+            "P": {
+              "color": "#d8d4d1",
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-265x159.png",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<b>Investigação <i>Social</i></b>",
+          "text2": "<br><br>",
+          "text3": "<b>Todos os direitos reservados 2018</b>",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-3",
+          "_styles": {
+            "B": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            "DIV": {
+              "text-align": "center"
+            }
+          }
+        }
+      ]
+    },
+    "Proposta.html": {
+      "settings": {
+        "title": "Proposta",
+        "order": 5
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "color": "#fff",
+            "hamburgerColor": "#e6e0dc"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-info-outline btn-info\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">CONTATO</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-213x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html#slider-4",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Investigação Social</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-e",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#e6e0dc"
+            },
+            ".navbar-brand": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "36px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/-background-2000x875.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info-outline btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>ENVIAR</a>",
+          "text1": "<strong>Endereço</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>Contacts</strong><br>\nEmail: support@social.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002<br><i>somos uma agência de detetives particulares que conta com uma equipe altamente qualificada e capacitada para atender os mais variados casos e investigações particulares.</i><br>",
+          "text2": "<b>Contato</b>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "truqueloke@gmail.com",
+            "alerts": {
+              "success": "Obrigado assim que possivel entraremos em contato."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Sua proposta"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Seu e-mail"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Tefone para contato"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensagem"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-c",
+          "_styles": {
+            "P": {
+              "color": "#d8d4d1",
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-265x159.png",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<b>Investigação <i>Social</i></b>",
+          "text2": "<br><br>",
+          "text3": "<b>Todos os direitos reservados 2018</b>",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "B": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            "DIV": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "contacts1-d"
+        }
+      ]
+    }
+  }
+}
